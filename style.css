@@ -185,14 +185,15 @@ body {
 
 @media only screen and (min-width: 576px) {
     
-    .body {
+    body {
         display:flex;
         justify-content: center;
+        align-items: center;
     }
     
     .wrapper {
         display:flex;
-        max-width: 750px;
+        min-width: 576px;
         max-height: 450px;
         border-radius: 25px ;
     }
@@ -206,7 +207,7 @@ body {
     }
 
     .score-text {
-        max-width: 210px;
+        max-width: 100%;
     }
 
     .white {
